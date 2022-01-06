@@ -1,0 +1,26 @@
+
+Here to create a conflict we first create a file name "mergefile.txt" in "newbranch" and write some content in it.
+Than we add and commit the "mergefile.txt" in "newbranch".
+
+Then We goto "main" branch and for the purpose of creating a conflict we create a file named "mergefile.txt" in main branch with content different from
+the file in "newbranch"
+Then we add and commit the "mergefile.txt" in main branch.
+
+When we finally try to merge the two files with same name but different contents a conflict is created.
+
+when  we  use the cat command to put out the contents of the mergefilr.txt file. We can see some strange new additions
+
+    <<<<<<< HEAD
+    =======
+    >>>>>>> newbranch
+
+Think of these new lines as "conflict dividers". The ======= line is the "center" of the conflict. All the content between the center and the <<<<<<< HEAD line 
+is content that exists in the current branch main which the HEAD ref is pointing to. Alternatively all content between the center and >>>>>>> newbranch is content 
+that is present in our merging branch.
+
+To resolve a merge conflict we edit the conflicted file. Open the mergefile.txt file in your editor and remove all the above "conflict diviers".
+
+Then we again add and commit the new conflict resolved file "mergefile.txt" in "main" branch.
+finally we run the merge command again which shows everything is up to date.
+
+
