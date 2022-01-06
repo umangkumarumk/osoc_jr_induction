@@ -1,0 +1,36 @@
+commit 99bbcd65a2bfc2927f784eafe835442700ee0ff8
+Author: umangkumarumk <umangkumarumk@gmail.com>
+Date:   Thu Jan 6 23:53:11 2022 +0530
+
+    Conflict resolutio details commited
+
+commit a8d5ec4398db3819c0f0f800d8763cef7db98918
+Merge: af62282 f9952a7
+Author: umangkumarumk <umangkumarumk@gmail.com>
+Date:   Thu Jan 6 17:48:12 2022 +0530
+
+    conflict resolved
+
+commit af622825e67f010ec2c71bcd0dc20965b79a2e7d
+Author: umangkumarumk <umangkumarumk@gmail.com>
+Date:   Thu Jan 6 17:44:31 2022 +0530
+
+    merge conflict file in main commited
+
+commit f9952a71fac889cd3286c71b1847c664f812c6cc
+Author: umangkumarumk <umangkumarumk@gmail.com>
+Date:   Thu Jan 6 17:42:10 2022 +0530
+
+    Merge conflict file commited in newbranch
+
+commit 4813d49d680f1a8434b7a3cccbb4341be419c5e2
+Author: umangkumarumk <umangkumarumk@gmail.com>
+Date:   Thu Jan 6 17:39:30 2022 +0530
+
+    command file merged
+
+commit 84d38b4625e3c648eeaf1bbdc9fd542fa954fdb0
+Author: SHANOOR AHMED <76896805+shanoorahmed@users.noreply.github.com>
+Date:   Mon Jan 3 00:41:26 2022 +0530
+
+    Initial commit
