@@ -1,0 +1,70 @@
+01.git diff
+Most of the time, you need to compare two git files or branches before you commit or push. Here is a handy command to do that. 
+Usage
+i) to compare the working directory with the local repo:
+$ git diff HEAD <filename>
+ii) to compare two branches:
+$ git diff <source branch> <target branch>
+
+
+02.git mv
+To rename a git file. It will accept two arguments, source and target file name.
+Usage
+$ git mv <old-file-name> <new-file-name>
+git help
+There are many commands in Git, and if you need more help with any command, you can use git help at any time from the terminal. 
+Usage
+$ git help <git_command>
+
+
+03.git config
+Git config command is super helpful. Especially when you are using Git for the first time, or you have a new Git installation.
+This command will set up your identity - Name and Email address. And this information will be used with every commit.
+Usage
+$ git config --global user.name "Your name"  
+$ git config --global user.email "Your email"
+
+04.git remote
+Git remote command acts like a border, and If you need to connect with the outside world, you have to use the Git remote command. 
+This command will connect your local repository to the remote. 
+Usage 
+$ git remote add <shortname> <url>
+
+05.git fetch 
+When you need to download other team members' changes, you have to use git fetch. 
+This command will download all information for commits, refs, etc., so you can review it before applying those changes in your 
+local repository.
+Usage 
+$ git fetch 
+
+
+06.git pull
+The Git pull command downloads the content (and not the metadata) and immediately updates your local repository with the latest 
+content.
+Usage 
+$ git pull <remote_url>
+
+07.git shortlog
+The shortlog command shows you a summary from the Git log command. This command is helpful if you are just interested in 
+the short summary. This command is helpful to see who worked on what as it group author with their commits.
+Usage 
+$ git shortlog
+
+
+08.git archive 
+Git archive command will combine multiple files into a  single file. It's like a zip utility, so it means you can extract the archive 
+files to get individual files.
+Usage 
+$ git archive --format zip HEAD > archive-HEAD.zip
+It will create a zip archive of the current revision.
+
+09.git blame 
+If you need to examine the content of any file line by line,  you need to use git blame. It helps you to determine who made 
+the changes to a file.
+Usage 
+$ git blame <your_file_name>
+
+10.git whatchanged
+This command does the same thing as git log but in a raw form. And it’s in the git because of historical reasons.
+Usage
+$ git whatchanged
